@@ -1,0 +1,107 @@
+body,html{
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	overflow-x: hidden !important;
+}
+.navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-nav>li>a:hover{
+	color:  #1E5080;
+}
+
+.navbar-nav>li>a:active{
+	color:  #1E5080;
+}
+#nav-button>button:hover{
+	color: black !important;
+	background-color: #f8f9fa;
+	border-color: black;
+}
+
+.jumbotron{
+	background: url('img/banner2.jpg') fixed;
+	height: 800px;
+	display: block;
+	overflow: hidden;
+	background-size: cover;
+    background-repeat: no-repeat;
+	box-shadow: 0 3000px rgba(5, 25,58, 0.4) inset;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+.navbar{
+	/*padding-top: 2px;
+	padding-bottom: 2px;*/
+	z-index: 9;
+}
+.nav-transparent{
+	color: white;
+	background-color: transparent !important;
+}
+.nav-opaque{
+	color: grey;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 6px 6px 0 rgba(0,0,0,0.4), 0 0 0 2px rgba(0,0,0,0.08);
+}
+#heading{
+	position:relative;
+	margin-top: 250px;
+	font-family: 'Roboto Condensed',sans-serif;
+	font-size: 6vw;
+	font-weight: lighter;
+	color: white;	
+	text-align: center;
+}
+
+#know-more{
+	font-family: 'Roboto',sans-serif;
+	font-size: 15px;
+	height: 60px;
+	width: 190px;
+	border: .125rem solid transparent;
+	background-color:#02b3e4;
+}
+
+#section1{
+	height: 700px;
+	font-family: 'Roboto',sans-serif;
+	font-weight: lighter;
+	font-size: 5vw;
+	padding: 90px;
+}
+#section1>#head{
+	padding-top: 30px;
+	font-size: 5.5vw;
+}
+#section1>#content{
+	padding-top: 80px;
+	font-weight: normal;
+	font-size: 2vw;
+}
+
+#section2{
+    background: #DFC7FF;
+    /*#ecdab2;*/
+    padding: 20px 0px;
+}
+
+#section4{
+margin: 30px;    
+}
+
+
+#section3{
+	height: 400px;
+	background-color: #070719; 
+	padding: 80px 80px 0 80px;
+}
+
+ul{
+	list-style: none;
+}
