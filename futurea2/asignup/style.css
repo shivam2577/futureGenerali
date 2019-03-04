@@ -1,0 +1,31 @@
+
+.jumbotronsignup {
+  width: 80%;
+  margin-top: 20%;
+  padding: 2%;
+  margin-left: 10%;
+  color: #e9ecef !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border-radius: 5px;
+  margin-bottom: 7vw !important;
+}
+
+
+.form-control {
+  background-color: #474747e7 !important;
+  color: azure !important;
+}
+
+
+#section3{
+  height: 400px;
+  background-color: #070719 !important; 
+  padding: 80px 80px 0 80px;
+}
+
+body,html{
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  overflow-x: hidden !important;
+}
