@@ -1,0 +1,11 @@
+.nav-item{
+	padding-left: 30px; 
+}
+.active{
+	font-weight: bold;
+}
+.sidebar>div>ul>li{
+	font-size: 1em;
+	padding: 5px;
+	font-weight: normal;
+}

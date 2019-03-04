@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" type="text/css" href="css/signUp.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-sm-4">
+        <form class="form-container" method="post" action="userSignUp.php">
+		<h1 align="center">Additional Details</h1>
+            <div class="row">
+            <div class="col-sm-4">
+              <input required type="text" class="form-control" placeholder="House No." style="margin-top:10px" name="hno" pattern="{1,15}" title="Must Contain Letters">
+            </div>
+            <div class="col-sm-4">
+              <input required type="text" class="form-control" placeholder="Street" style="margin-top:10px" name="street" pattern="{1,15}" title="Must Contain Letters">
+            </div>
+            <div class="col-sm-4">
+              <input required type="text" class="form-control" placeholder="Town" style="margin-top:10px" name="town" pattern="{1,15}" title="Must Contain Letters">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <input required type="text" class="form-control" placeholder="District" style="margin-top:10px" name="district" pattern="{1,15}" title="Must Contain Letters">
+            </div>
+            <div class="col-sm-6">
+              <input required type="text" class="form-control" placeholder="State" style="margin-top:10px" name="state" pattern="{1,15}" title="Must Contain Letters">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <input required type="text" class="form-control" placeholder="Country" style="margin-top:10px" name="country" pattern="{1,15}" title="Must Contain Letters">
+            </div>
+            <div class="col-sm-6">
+              <input required type="number" class="form-control" placeholder="Pincode" style="margin-top:10px" name="pincode" pattern="[0-9]{6}" title="xxxxxx">
+            </div>
+          </div>
+		  <p style="margin-top:10px">Education Qualifications:</p>
+          <select required class="custom-select" placeholder="Mr." name="qualification">
+                <option value="Class X">Class X</option>
+                <option value="Class XII">Class XII</option>
+                <option value="Graduate">Graduate</option>
+				<option value="Post Graduate">Post Graduate</option>
+
+              </select>
+		            <input required type="text" class="form-control" placeholder="PAN Card Number" name="pan" style="margin-top:10px" pattern="^[A-Z]{5}[0-9]{4}[A-Z]{1}$" title="AAAAA0000A">
+			</form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
